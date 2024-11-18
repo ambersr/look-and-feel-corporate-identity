@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Opdracht 1 */
+section:nth-of-type(1) {
+    max-width: 13cm;
+    /* Dit is omgerekend  411.336px */
+}
+
+/* Opdracht 2.1 in em*/
+section:nth-of-type(2) {
+    max-width: 30em;
+}
+
+/* Opdracht 2.2 in ch */
+section:nth-of-type(3) {
+    max-width: 60ch;
+}
+
+/* Opdracht 2.3 in rem */
+section:nth-of-type(4) {
+    max-width: 30rem;
+    /* Rem is gebaseerd op de rooth en de ch is gebaseerd op het cijfer 0 dus als de with 30ch is dan zou er 20 '0' inpassen. */
+}
+
+/* Opdracht 2.4 rem in ander font */
+section:nth-of-type(5) {
+    max-width: 30rem;
+    font-family: monospace;
+    /* Er veranderd niks, dit komt omdat rem naar de fontsize kijkt van de root en niet naar de font of de fontstyle. */
+}
+
+/* Opdracht 3.1 vw */
+section:nth-of-type(6) {
+    max-width: 35vw;
+}
+
+/* Opdracht 3.2 cqw */
+section:nth-of-type(7) {
+    max-width: 35cqw;
+}
+
+/* Opdracht 3.3 dvw */
+section:nth-of-type(8) {
+    max-width: 35dvw;
+    /* Gebaseerd op de huidige breedte van het viewport en verandert dynamisch wanneer de zichtbare breedte verandert. */
+}
+
+/* Opdracht 3.4 vmax */
+section:nth-of-type(9) {
+    max-width: 65vmax;
+    /* Wanneer je vmax gebruikt, wordt de grootte van het element bepaald door het grootste percentage
+                            van de breedte of hoogte van het scherm, afhankelijk van welke op dat moment groter is. */
+}

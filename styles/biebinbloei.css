@@ -121,44 +121,50 @@ figcaption p:first-of-type {
 /* Heading elements */
 h1, h2, h3, h4, h5, H6{
   font-family: var(--font-header);
-  margin: 0.5em 0em;
+  margin: 0.2em 0em;
   padding: 0;
 }
 
 h1 {
   font-size: clamp(2.1875rem, 1.9022rem + 1.3043vw, 2.725rem);
   line-height: 115%;
+  color: var(--text-darkgreen);
 }
 
 h2 {
   font-size: clamp(1.875rem, 1.7096rem + 0.8824vw, 2.8125rem);
   line-height: 110%;
+  color: var(--text-darkgreen);
 }
 
 h3 {
   font-size: clamp(1.5625rem, 1.3971rem + 0.8824vw, 2.5rem);
   line-height: 115%;
+  color: var(--text-darkgreen);
 }
 
 h4 {
   font-size: clamp(1.25rem, 1.0846rem + 0.8824vw, 2.1875rem);
   line-height: 118%;
+  color: var(--text-darkgreen);
 }
 
 h5 {
   font-size: clamp(1.125rem, 0.9926rem + 0.7059vw, 1.875rem);
   line-height: 118%;
+  color: var(--text-darkgreen);
 }
 
 h6 {
   font-size: clamp(1rem, 0.9007rem + 0.5294vw, 1.5625rem);
   line-height: 118%;
+  color: var(--text-darkgreen);
 }
 
 /* Paragraph text element */
 p {
   font-size: clamp(1rem, 1rem + 0vw, 1rem);
-  line-height: 150%;
+  line-height: 170%;
   font-family: var(--font-paragraph);
 }
 
@@ -294,7 +300,7 @@ a:hover {
 a.btn-oranje {
   align-self: baseline;
   background-color: var(--orange);
-  color: var(--beige);
+  color: var(--text-off-white);
   padding: 0.7em 1.4em;
   border-radius: 100px;
   text-decoration: none;

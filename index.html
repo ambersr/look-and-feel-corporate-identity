@@ -5,13 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geveltuin - Bieb in Bloei</title>
-    <link rel="icon" type="image/x-icon" href="/assets/fav-icon-bieb-in-bloei.png">
+    <link rel="icon" type="image/x-icon" href="./assets/logo-bieb-in-bloei-bruin.svg">
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="/styles/biebinbloei.css">
 </head>
 
 <body>
-     
+
+    <!-- Navigatie + menu items -->
+    <header class="header-nav">
+
+        <!-- Logo Bieb in Bloei -->
+        <a href="index.html" aria-label="Home">
+            <img src="assets/logo-bieb-in-bloei-bruin.svg" alt="logo bieb in bloei">
+        </a>
+
+        <!-- Hamburger knop -->
+        <button class="checkbtn" id="menuButton">
+            <img src="assets/hamburger-icon.svg" alt="hamburger menu">
+        </button>
+
+        <!-- Menu items -->
+        <nav>
+            <ul id="menu" aria-label="Menu openen/sluiten">
+                <li><a href="#">Stekjes</a></li>
+                <li><a href="#">Zaadjes</a></li>
+                <li><a class="actief" href="index.html">De Geveltuin</a></li>
+                <li><a href="#">Agenda</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
 
     <script src="scripts/script.js"></script>
 </body>

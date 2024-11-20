@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experimenteren met formulieren</title>
+    <link rel="stylesheet" href="/styles/input.css">
+
+</head>
+
+<body>
+
+    <h1>Form inputs experimenteren</h1>
+
+    <form action="#">
+
+        <fieldset>
+
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#000000"><br><br>
+
+        </fieldset>
+
+        <fieldset>
+
+            <label for="datum">Kies hier een datum:</label>
+            <input type="date" id="datum" name="datum" value="2024-07-22" min="2024-01-01" max="2025-12-31">
+
+        </fieldset>
+
+        <input type="submit">
+
+    </form>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

@@ -337,34 +337,33 @@
                      <p>Vul hieronder jouw contactgegevens in en dan nemen wij zo snel mogelijk contact met je op!
                      </p>
                      <div class="divider"></div>
-                     <form action="aanmeldformulier.php">
+                     <form action="#">
 
                          <!-- Label voornaam -->
                          <div class="label">
-                             <label for="fname">Voornaam
-                                 <input type="text" id="fname" name="fname" placeholder="Voornaam">
+                             <label for="fname">Voornaam <span class="req">*</span>
+                                 <input type="text" id="fname" name="fname" placeholder="Voornaam" required>
                              </label>
                          </div>
 
                          <!-- Label achternaam -->
                          <div class="label">
-                             <label for="lname">Achternaam
-                                 <input type="text" id="lname" name="lname" placeholder="Achternaam"
-                                     aria-required="true">
+                             <label for="lname">Achternaam <span class="req">*</span>
+                                 <input type="text" id="lname" name="lname" placeholder="Achternaam" required>
                              </label>
                          </div>
 
                          <!-- Label emailadres -->
                          <div class="label">
-                             <label for="e-mail">E-mailadres
-                                 <input type="text" id="e-mail" name="e-mail" placeholder="E-mailadres">
+                             <label for="e-mail">E-mailadres <span class="req">*</span>
+                                 <input type="text" id="e-mail" name="e-mail" placeholder="E-mailadres" required>
                              </label>
                          </div>
 
                          <!-- Label voornaam -->
                          <div class="label">
-                             <label for="phone-number">Telefoonnummer
-                                 <input type="text" id="phone-number" name="phone-number" placeholder="Telefoonnummer">
+                             <label for="phone-number">Telefoonnummer <span class="req">*</span>
+                                 <input type="text" id="phone-number" name="phone-number" placeholder="Telefoonnummer" required>
                              </label>
                          </div>
 
@@ -401,6 +400,39 @@
          </div>
 
      </section>
+
+      <!-- Footer -->
+      <footer>
+
+          <!-- Logo + kort stukje over Bieb in Bloei -->
+          <figure>
+              <img src="assets/logo-bieb-in-bloei-bruin.svg" alt="Logo van Bieb in Bloei" width="100">
+              <figcaption>Ons derde Bieb in Bloei project is de Zadenbieb. Deze zal eind 2024 gemaakt worden door
+                  kinderen uit de buurt bij de Maakplaats in OBA Javaplein.
+              </figcaption>
+          </figure>
+
+          <!-- Menu items in footer -->
+          <section class="menu">
+              <h3>Menu</h3>
+              <ul class="menu-items">
+                  <li><a href="#">Stekjes</a></li>
+                  <li><a href="#">Zaadjes</a></li>
+                  <li><a href="#">De geveltuin</a></li>
+                  <li><a href="#">Agenda</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+          </section>
+
+          <!-- Stukje tekst samenwerken -->
+          <section class="samenwerken">
+              <h3>Samenwerken?</h3>
+              <p>Wil jij met andere organisaties, buurtbewoners en studenten samenwerken aan stedelijke uitdagingen
+                  in Amsterdam Oost? Stuur een e-mail naar <a
+                      href="mailto:buurtcampusoost@hva.nl">buurtcampusoost@hva.nl</a>.</p>
+          </section>
+
+      </footer>
 
     <script src="scripts/script.js"></script>
 </body>

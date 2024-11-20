@@ -78,6 +78,57 @@ body {
     }
 }
 
+/* Animatie links-rechts Harry */
+@keyframes moveLeftRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    3% {
+        transform: translateX(30px);
+        transform: rotate(-22deg);
+        transform-origin: 280px 0px;
+    }
+
+    40% {
+        transform: translateX(30px);
+        transform: rotate(-22deg);
+        transform-origin: 280px 0px;
+    }
+
+    45% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@media screen and (min-width: 740px) {
+    @keyframes moveLeftRight {
+        0% {
+            transform: translateY(0);
+        }
+
+        3% {
+            transform: translateY(-30px);
+        }
+
+        40% {
+            transform: translateY(-30px);
+        }
+
+        45% {
+            transform: translateY(0);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
+}
+
 
 /* Navigatie + menu items */
 .header-nav {
@@ -371,7 +422,7 @@ img.leave-orange {
 }
 
 /* Blad links */
-img.blad-links {
+img.blad-links-groener {
     position: absolute;
     left: 10%;
     transform: translate(-45%, 0);
@@ -388,7 +439,7 @@ img.blad-links {
 }
 
 /* Blad rechts */
-img.blad-rechts {
+img.blad-rechts-groener {
     position: absolute;
     right: 0;
     width: 200px;
@@ -541,12 +592,11 @@ details>summary::-webkit-details-marker /* Zorgt ervoor dat de standaard marker 
 }
 
 /* Blad links */
-.sectie-waarom img.leave-left {
+.sectie-waarom img.blad-links-waarom {
     position: absolute;
-    right: 0;
+    left: 0;
     width: 250px;
     margin-top: -170px;
-    margin-left: 50px;
     z-index: 0;
 
     @media screen and (min-width: 740px) {
@@ -563,13 +613,12 @@ details>summary::-webkit-details-marker /* Zorgt ervoor dat de standaard marker 
 
     @media screen and (min-width: 1200px) {
         width: 430px;
-        margin-left: 30px;
         margin-top: -320px;
     }
 }
 
 /* Blad rechts */
-.sectie-waarom img.leave-right {
+.sectie-waarom img.blad-rechts-waarom {
     position: absolute;
     right: 0;
     display: none;
@@ -623,4 +672,265 @@ details>summary::-webkit-details-marker /* Zorgt ervoor dat de standaard marker 
     transform-origin: 60% 50%;
     animation: handWave 12s ease-in-out infinite;
     animation-delay: 3s;
+}
+
+
+
+
+
+
+
+
+
+/* Sectie 4 'Aanmelden'*/
+.sectie-aanmelden {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: var(--white-main);
+    padding: 3em 1em 3em 1em;
+    border-radius: 20px;
+    z-index: 1;
+    justify-content: center;
+    overflow: hidden; /* zorgt ervoor dat harry niet buiten het scherm valt */
+
+    @media screen and (min-width: 740px) {
+        padding: 4em 3em 7em 3em;
+    }
+
+    @media screen and (min-width: 1000px) {
+        padding: 5em 6em 7em 6em;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 5em 8em 6em 8em;
+    }
+}
+
+.sectie-aanmelden h2 {
+    align-self: center;
+    text-align: center;
+    padding: 0em 0em 0.5em 0em;
+    z-index: 1;
+
+    @media screen and (min-width: 740px) {
+        padding: 0.7em 0em 0.8em 0em;
+        width: 70%;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 60%;
+    }
+
+    @media screen and (min-width: 1600px) {
+        width: 50%;
+    }
+}
+
+.sectie-aanmelden p {
+    align-self: center;
+}
+
+.aanmeld-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    justify-content: center;
+
+    @media screen and (min-width: 740px) {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+}
+
+
+
+/* Blok links */
+.aanmeld-content .formulier {
+    width: 100%;
+    overflow: hidden;
+}
+
+.formulier h3 {
+    font-size: 1.7em;
+}
+
+.formulier {
+    z-index: 2;
+    position: relative;
+    background-color: var(--beige);
+    padding: 2em 2em 5.5em 2em;
+    border-radius: 15px;
+
+    @media screen and (min-width: 1000px) {
+        width: 65%;
+    }
+}
+
+.formulier .divider {
+    height: 1px;
+    background-color: rgb(208, 206, 177);
+    margin: 1.5em 0em 1.5em 0em;
+}
+
+/* Aanmeldformulier */
+form {
+    padding: 0;
+}
+
+/* Blok rechts */
+.aanmelden-rechts {
+    background-color: var(--darkgreen);
+    padding: 0.5em;
+    border-radius: 15px;
+    z-index: 1;
+
+    @media screen and (min-width: 1000px) {
+        width: 38%;
+    }
+}
+
+/* Afbeelding in blok rechts */
+img.info-img {
+    width: 100%;
+    height: 18em;
+    border-radius: 15px;
+    object-fit: cover;
+
+    @media screen and (min-width: 1000px) {
+        width: 100%;
+        height: 15em;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+}
+
+.aanmelden-rechts h4 {
+    color: var(--beige);
+    font-size: 1.3em;
+    padding: 1em 1em 1em 1em;
+
+    @media screen and (min-width: 740px) {
+        padding: 1em 1em 0.7em 0.7em;
+    }
+}
+
+.aanmelden-rechts p {
+    color: var(--beige);
+    padding: 0em 1em 1em 1em;
+}
+
+.aanmelden-rechts ul {
+    list-style-type: none;
+    padding: 0em 1em 1em 1em;
+}
+
+.aanmelden-rechts li a {
+    color: var(--beige);
+    gap: 10px;
+    display: flex;
+}
+
+.aanmelden-rechts li {
+    color: var(--beige);
+    gap: 10px;
+    display: flex;
+}
+
+/* Harry in aanmelden */
+.aanmelden-links .harry {
+    display: flex;
+    flex-direction: row-reverse;
+    animation: moveLeftRight 12s ease-in-out infinite; /* Animatieduur 12s en oneindig */
+    animation-delay: 3s; /* wacht 3s en laat dan de animatie beginnen */
+    z-index: 3;
+    position: relative;
+
+    @media screen and (min-width: 740px) {
+        z-index: 0;
+    }
+}
+
+.aanmelden-links .harry svg {
+    margin-top: -80px;
+    margin-bottom: -75px;
+    margin-right: -13%;
+    width: 120px;
+    transform: rotate(-38deg);
+
+    @media screen and (min-width: 740px) {
+        margin-right: 60%;
+        transform: rotate(0deg);
+    }
+}
+
+/* Hand zwaaien Harry */
+#hand-3 {
+    transform-origin: 60% 50%;
+    animation: handWave 12s ease-in-out infinite;
+    animation-delay: 3s;
+}
+
+
+
+
+
+/* leave top left */
+img.blad-links-aanmelden{
+    position: relative;
+    left: 0;
+    width: 300px;
+    z-index: 0;
+    margin-top: -220px;
+    margin-bottom: -150px;
+
+    @media screen and (min-width: 740px) {
+        width: 300px;
+        margin-top: -220px;
+        margin-bottom: -120px;
+    }
+
+    @media screen and (min-width: 1000px) {
+        width: 350px;
+        margin-top: -220px;
+        margin-bottom: -200px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 400px;
+        margin-top: -260px;
+        margin-bottom: -170px;
+        translate: 0px 0px;
+    }
+}
+
+/* leave right */
+img.blad-rechts-aanmelden {
+    position: absolute;
+    right: 0;
+    display: none;
+    margin-left: 50px;
+    z-index: 0;
+
+    @media screen and (min-width: 740px) {
+        display: block;
+        width: 250px;
+        margin-top: -620px;
+        translate: 0px 0px;
+    }
+
+    @media screen and (min-width: 1000px) {
+        width: 320px;
+        margin-top: -640px;
+        translate: 0px 0px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 370px;
+        margin-top: -450px;
+        translate: 0px 0px;
+    }
 }

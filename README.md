@@ -6,7 +6,9 @@ De instructie vind je in: [INSTRUCTIONS](https://github.com/fdnd-task/look-and-f
 
 
 # Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+<!-- Bieb in Bloei geveltuin pagina -->
+
+Linkje naar styleguide repo: https://github.com/kimnikitaschijf/look-and-feel-styleguide
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->

@@ -1071,24 +1071,229 @@ footer h3 {
      margin-bottom: -4em;
 
      @media screen and (min-width: 740px) {
-         padding: 8em 3em 7em 3em;
+         padding: 8em 3em 10em 3em;
      }
 
      @media screen and (min-width: 1000px) {
-         padding: 8em 6em 7em 6em;
+         padding: 8em 6em 13em 6em;
      }
 
      @media screen and (min-width: 1200px) {
-         padding: 8em 8em 8em 8em;
+         padding: 8em 8em 13em 8em;
      }
 }
 
 .sectie-contact p {
     text-align: center;
-    width: 70%;
+    width: 100%;
     align-self: center;
+    z-index: 3;
+
+     @media screen and (min-width: 740px) {
+         width: 60%;
+     }
 }
 
 .sectie-contact h1 {
     text-align: center;
+    z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+/* Sectie 2 contact formulier */
+.sectie-contact-formulier {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 1em;
+    padding: 5em 1em 3em 1em;
+    margin-top: -4em;
+    border-radius: 20px;
+    z-index: 1;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    /* zorgt ervoor dat harry niet buiten het scherm valt */
+
+    @media screen and (min-width: 740px) {
+        padding: 8em 3em 7em 3em;
+        flex-direction: row;
+        margin-top: -9em;
+    }
+
+    @media screen and (min-width: 1000px) {
+        margin-top: -10em;
+        padding: 8em 6em 7em 6em;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 7em 8em 6em 8em;
+    }
+}
+
+/* Blok links */
+.contact-formulier-links{
+    overflow: hidden;
+}
+
+.contact-formulier-links h3 {
+    font-size: 1.7em;
+}
+
+.contact-formulier-links {
+    z-index: 2;
+    position: relative;
+    background-color: var(--primary-text-color);
+    padding: 2em 2em 3em 2em;
+    border-radius: 15px;
+    border: 1px solid rgb(224, 224, 224);
+
+    @media screen and (min-width: 1000px) {
+        width: 100%;
+        padding: 2em 2em 5.5em 2em;
+    }
+}
+
+.contact-formulier-links p {
+    width: 100%;
+    
+     @media screen and (min-width: 1000px) {
+         width: 80%;
+     }
+}
+
+.contact-formulier-links .divider {
+    height: 1px;
+    background-color: rgb(208, 206, 177);
+    margin: 1.5em 0em 1.5em 0em;
+}
+
+/* Aanmeldformulier */
+form {
+    padding: 0;
+}
+
+.contact-formulier-links input {
+    background-color: #fbf3df;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+/* Blok rechts */
+.contact-formulier-rechts {
+    background-color: var(--third-background-color);
+    padding: 0.5em;
+    border-radius: 15px;
+    z-index: 1;
+
+     @media screen and (min-width: 750px) {
+         width: 45%;
+     }
+
+    @media screen and (min-width: 1000px) {
+        width: 31%;
+    }
+}
+
+/* Afbeelding in blok rechts */
+img.info-img {
+    width: 100%;
+    height: 18em;
+    border-radius: 15px;
+    object-fit: cover;
+
+    @media screen and (min-width: 1000px) {
+        width: 100%;
+        height: 15em;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+}
+
+.contact-formulier-rechts h4 {
+    font-size: 1.3em;
+    padding: 1em 1em 1em 1em;
+
+    @media screen and (min-width: 740px) {
+        padding: 1em 1em 0.7em 0.7em;
+    }
+}
+
+.contact-formulier-rechts p {
+    padding: 0em 1em 1em 1em;
+}
+
+.contact-formulier-rechts ul {
+    list-style-type: none;
+    padding: 0em 1em 1em 1em;
+}
+
+.contact-formulier-rechts li a {
+    color: var(--primary-background-color);
+    gap: 10px;
+    display: flex;
+}
+
+.contact-formulier-rechts li {
+    gap: 10px;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+/* Sectie 3 'FAQ' */
+.sectie-faq {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+    padding: 0em 1em 3em 1em;
+
+        @media screen and (min-width: 740px) {
+            padding: 0em 0em 4em 0em;
+        }
+
+        @media screen and (min-width: 1000px) {
+            padding: 0em 0em 6em 0em;
+        }
+}
+
+.sectie-faq h2 {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+
+    @media screen and (min-width: 740px) {
+          padding: 0em 1em 0.7em 0.7em;
+              width: 70%;
+    }
+}
+
+.veelgestelde-vragen {
+    align-self: center;
+}
+
+.sectie-faq details {
+    background-color: #ffffff;
+}
+
+.sectie-faq details {
+    width: 100%;
+
+    @media screen and (min-width: 740px) {
+          width: 40em;
+    }
 }

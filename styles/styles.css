@@ -135,7 +135,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center; /* Zorgt voor verticale centrering */
-    background-color: var(--beige);
     color: var(--text-darkgreen);
     padding: 15px 1em;
     transition: top 0.3s;
@@ -177,7 +176,6 @@ body {
     display: block; /* checkbtn vult volledige breedte  */
     position: absolute;
     right: 15px;
-    background-color: var(--beige);
     border: none;
 
     @media screen and (min-width: 820px) {
@@ -198,7 +196,6 @@ body {
     top: 80px;
     right: 0%;
     translate: 100%;
-    background-color: var(--beige);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -292,7 +289,6 @@ body {
 .sectie-geveltuin {
     display: flex;
     flex-direction: column;
-    background-color: var(--beige);
     align-self: center;
     padding: 8em 1em 7em 1em;
     border-radius: 0px 0px 20px 20px;
@@ -393,7 +389,6 @@ img.leave-orange {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--text-off-white);
     padding: 3em 0em 0em 0em;
     align-self: center;
     width: 92%;
@@ -527,7 +522,6 @@ img.blad-rechts-groener {
 .sectie-waarom {
     display: flex;
     flex-direction: column;
-    background-color: var(--darkgreen);
     align-self: center;
     padding: 18em 1em 3em 1em;
     border-radius: 0px 0px 20px 20px;
@@ -550,16 +544,7 @@ img.blad-rechts-groener {
 }
 
 /* Links sectie 3 */
-.sectie-waarom h2 {
-    color: var(--text-off-white);
-}
-
-.sectie-waarom p {
-    color: var(--text-off-white);
-}
-
 .sectie-waarom p:nth-of-type(2){
-    color: var(--text-off-white);
     margin-bottom: 1.5em;
 }
 
@@ -593,11 +578,11 @@ img.blad-rechts-groener {
 
 /* Styling accordion */
 .accordion-card {
-    background-color: var(--beige);
     padding: 2em;
-    border-radius: 20px;
+    border-radius: var(--rounded);
     z-index: 1;
     width: 100%;
+    background-color: var(--primary-background-color);
 
     @media screen and (min-width: 740px) {
         width: 100%;
@@ -605,7 +590,7 @@ img.blad-rechts-groener {
 }
 
 details {
-    border-bottom: 1px solid var(--text-darkgreen);
+    border-bottom: 1px solid var(--secondary-text-color);
     background-color: #f8e7c1;
     margin-bottom: 10px;
 }
@@ -747,7 +732,6 @@ details>summary::-webkit-details-marker /* Zorgt ervoor dat de standaard marker 
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
-    background-color: var(--white-main);
     padding: 3em 1em 3em 1em;
     border-radius: 20px;
     z-index: 1;
@@ -821,7 +805,7 @@ details>summary::-webkit-details-marker /* Zorgt ervoor dat de standaard marker 
 .formulier {
     z-index: 2;
     position: relative;
-    background-color: var(--beige);
+    background-color: var(--primary-background-color);
     padding: 2em 2em 5.5em 2em;
     border-radius: 15px;
 
@@ -843,7 +827,7 @@ form {
 
 /* Blok rechts */
 .aanmelden-rechts {
-    background-color: var(--darkgreen);
+    background-color: var(--third-background-color);
     padding: 0.5em;
     border-radius: 15px;
     z-index: 1;
@@ -869,7 +853,6 @@ img.info-img {
 }
 
 .aanmelden-rechts h4 {
-    color: var(--beige);
     font-size: 1.3em;
     padding: 1em 1em 1em 1em;
 
@@ -879,7 +862,6 @@ img.info-img {
 }
 
 .aanmelden-rechts p {
-    color: var(--beige);
     padding: 0em 1em 1em 1em;
 }
 
@@ -889,13 +871,12 @@ img.info-img {
 }
 
 .aanmelden-rechts li a {
-    color: var(--beige);
+    color: var(--primary-background-color);
     gap: 10px;
     display: flex;
 }
 
 .aanmelden-rechts li {
-    color: var(--beige);
     gap: 10px;
     display: flex;
 }
@@ -1075,4 +1056,39 @@ footer h3 {
 
 .samenwerken a:hover {
     color: var(--button-hover);
+}
+
+
+/* ---------------------------------------- Contact pagina ------------------------------------------------------------ */
+
+.sectie-contact {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     align-self: center;
+     padding: 8em 1em 7em 1em;
+     border-radius: 0px 0px 20px 20px; 
+     margin-bottom: -4em;
+
+     @media screen and (min-width: 740px) {
+         padding: 8em 3em 7em 3em;
+     }
+
+     @media screen and (min-width: 1000px) {
+         padding: 8em 6em 7em 6em;
+     }
+
+     @media screen and (min-width: 1200px) {
+         padding: 8em 8em 8em 8em;
+     }
+}
+
+.sectie-contact p {
+    text-align: center;
+    width: 70%;
+    align-self: center;
+}
+
+.sectie-contact h1 {
+    text-align: center;
 }

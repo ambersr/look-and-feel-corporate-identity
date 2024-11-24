@@ -237,11 +237,16 @@ body {
 }
 
 .header-nav a:hover {
-    color: var(--orange);
+    color: var(--primary-highlight-color);
     transform: scale(110%);
     transition: 0.2s ease-in-out;
 }
 
+.header-nav a.actief {
+    color: var(--primary-highlight-color);
+    transform: scale(110%);
+    transition: 0.2s ease-in-out;
+}
 
 
 

@@ -260,7 +260,8 @@ body {
     animation: moveUpDown 12s ease-in-out infinite;
     /* Duur animatie 12s oneindig */
     animation-delay: 3s;
-    position: relative;
+    position: relative
+;
 }
 
 .harry svg {
@@ -710,6 +711,7 @@ details>summary::-webkit-details-marker /* Zorgt ervoor dat de standaard marker 
     width: 120px;
     animation: moveUpDown 12s ease-in-out infinite; /* animatie duurt 12s oneindig */
     animation-delay: 3s;
+    z-index: 10;
 
     @media screen and (min-width: 740px) {
         margin-right: 20%;
@@ -993,6 +995,7 @@ footer {
     padding: 3em 1em 3em 1em;
     gap: 30px;
     border-radius: 20px 20px 0px 0px;
+    z-index: 30;
 
     @media screen and (min-width: 740px) {
         flex-direction: row;
@@ -1265,14 +1268,14 @@ img.info-img {
     flex-direction: column;
     align-self: center;
 
-    padding: 0em 1em 3em 1em;
+    padding: 0em 1em 7em 1em;
 
         @media screen and (min-width: 740px) {
-            padding: 0em 0em 4em 0em;
+            padding: 0em 0em 7em 0em;
         }
 
         @media screen and (min-width: 1000px) {
-            padding: 0em 0em 6em 0em;
+            padding: 0em 0em 7em 0em;
         }
 }
 
@@ -1300,5 +1303,59 @@ img.info-img {
 
     @media screen and (min-width: 740px) {
           width: 40em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Blad links */
+img.blad-links-faq {
+    position: absolute;
+    left: 10%;
+    transform: translate(-45%, -80%);
+    width: 230px;
+    z-index: 0;
+
+    @media screen and (min-width: 740px) {
+        width: 30%;
+        transform: translate(-50%, -30%);
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 28%;
+    }
+}
+
+/* Blad rechts */
+img.blad-rechts-faq {
+    position: absolute;
+    right: 0;
+    width: 200px;
+    margin-top: 300px;
+    z-index: 0;
+    display: none;
+
+    @media screen and (min-width: 740px) {
+        display: block;
+        width: 230px;
+        position: absolute;
+        right: 0;
+        margin-top: 100px;
+        translate: 50px, 50px;
+    }
+
+    @media screen and (min-width: 1000px) {
+        width: 330px;
+        position: absolute;
+        right: 0;
+        margin-top: 0px;
     }
 }

@@ -19,6 +19,8 @@ Linkje naar de ontwikkelde Geveltuin pagina: [www.ambersr.github.io/all-human-ac
 ### Het ontwerp
 Het ontwerp van de Geveltuinpagina is hetzelfde gebleven. Wel is er een nieuw ontwerp toegevoegd, namelijk de contactpagina. Net als de Geveltuinpagina bevat deze overlappende elementen en specifieke stijlen die passen bij het bestaande ontwerp. Het ontwerp is geoptimaliseerd voor verschillende schermgroottes. (Zie afbeelding)
 
+Linkje naar het ontwerp in Figma: https://www.figma.com/design/9o1mHaZT6NTU6dXo6J3ewj/Bieb-in-Bloei?node-id=0-1&t=cfn0mtkwEiqHpygJ-1
+
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/bfbcbfbb-9ef8-4c1a-9928-0afdce55b134">
 
 ### Het ontwikkelde platform
@@ -26,9 +28,13 @@ Het ontwerp van de Geveltuinpagina is hetzelfde gebleven. Wel is er een nieuw on
 
 De Geveltuinpagina is opnieuwe ontwikkeld en heeft een aantal nieuwe ontwikkelingen waaronder: de verplichte velden in het formulier, verbeterde semantieke opbouw en responsive issues opgelost.
 
+Linkje naar de Geveltuinpagina: https://ambersr.github.io/look-and-feel-corporate-identity/
+
 - Contactpagina
 
 De contactpagina is volledig nieuw en is ontwikkeld op basis van schetsen en een high-fidelity ontwerp, met gebruik van HTML, CSS en JavaScript. De pagina is vormgegeven in dezelfde stijl als de Geveltuinpagina en bevat een contactformulier en een blok met contactgegevens van Bieb in Bloei. Onder het formulier is een FAQ-sectie toegevoegd met veelgestelde vragen, zodat gebruikers snel antwoorden kunnen vinden zonder onnodig contact op te hoeven nemen.
+
+Linkje naar de Contactpagina: https://ambersr.github.io/look-and-feel-corporate-identity/contact.html
 
 ### Belangrijke features:
 - Formulier foutmeldingen toegevoegd

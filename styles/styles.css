@@ -854,6 +854,10 @@ form {
     padding: 0;
 }
 
+button.btn-verzenden {
+    width: 10em;
+}
+
 input:user-invalid {
     border: 2px solid red !important;
     background-color: #ffe6e6 !important;

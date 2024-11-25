@@ -17,27 +17,31 @@ Linkje naar de ontwikkelde Geveltuin pagina: [www.ambersr.github.io/all-human-ac
 
 ## Beschrijving
 ### Het ontwerp
-Het ontwerp is grotendeels hetzelfde gebleven. De enige aanpassing die ik heb doorgevoerd zijn de kleuren van de knoppen. Aan de hand van een toegankelijkheidstest heb ik ontdekt dat het contrast tussen de achtergrondskleur en de tekstkleur van de knoppen onvoldoende was. Dit contrast is belangrijk omdat de knop enerzijds goed moet opvallen voor SEO-doeleinden en anderzijds leesbaar moet zijn voor gebruikers met visuele beperkingen en voor degenen die screenreaders gebruiken. Om aan beide eisen te voldoen, heb ik de knoppen iets donkerder gemaakt. Zo blijven ze opvallend, terwijl gebruikers met een visuele beperking ze nu beter kunnen lezen.
+Het ontwerp van de Geveltuinpagina is niet veranderd. Daarentegen is er een nieuwe ontwerp toegevoegd namelijk de contactpagina. Deze heeft netzoals de Geveltuinpagina overlappende elementen en bepaalde stylingen die aansluiten bij het ontwerp. Het ontwerp is voor meerdere schermbreedtes ontworpen. (Zie afbeelding)
 
-- Knop kleur verandering
-
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/ec067554-d7c8-4c25-942d-c1fb23e99437">
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/bfbcbfbb-9ef8-4c1a-9928-0afdce55b134">
 
 ### Het ontwikkelde platform
-Gebruikers met een beperking kunnen nu met de tab-toets eenvoudig door de website navigeren. Daarnaast heb ik een skiplink toegevoegd, zodat gebruikers die een screenreader gebruiken de navigatie kunnen overslaan en direct naar de hoofdinhoud kunnen gaan.
+- Geveltuinpagina
+
+De Geveltuinpagina heeft een aantal nieuwe ontwikkelingen waaronder: de verplichte velden in het formulier, verbeterde semantieke opbouw en responsive issues opgelost.
+
+- Contactpagina
+
+De contactpagina is een compleet nieuwe pagina. Aan de hand van schetsen en een high-fi ontwerp is de contactpagina ontwikkeld in HTML, CSS en Javascript. Deze pagina is in dezelfde stijl ontworpen als de Geveltuinpagina. De pagina bevat een contactformulier en een contactblok met gegevens van Bieb in Bloei. Onder het formulier is er een FAQ toegevoegd. Hier komen belangrijke en veelgestelde vragen te staan, zo zorg je ervoor dat de gebruiker niet onnodig contact hoeft op te nemen.
 
 ### Belangrijke features:
 - Formulier foutmeldingen toegevoegd
 
-Doormiddel van een skiplink kan een gebruiker met een een screenreader de navigatie items overslaan. Op deze manier hoeft een gebruiker die gebruik maakt van de tab functie niet de hele navigatie te doorlopen op een pagina.
+De belangrijkste velden worden nu als verplicht gezien. Doormiddel van het rode sterretje is het visueel zichtbaar dat de velden verplicht zijn om in te vullen. Zodra je de verplichte velden niet hebt ingevuld en je wilt het formulier verzenden, dan worden de velden rood.
 
-<img width="300" alt="image" src="https://github.com/user-attachments/assets/bdeaad96-7b84-4613-82f2-843be971d431">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/bdeaad96-7b84-4613-82f2-843be971d431">
 
 - FAQ onder aan de contactpagina
 
-Harry komt te voorschijn en zwaait naar de bezoeker! Voor in het vervolg wil ik nog niets toevoegen van een pop up waarbij Harry kort iets uitlegt over de geveltuin.
+Onder het contactformulier heb is er een FAQ toegevoegd. Dit is een handige toevoeging om ervoor te zorgen dat gebruikers de meestgestelde vragen hier kan vinden. Op deze manier voorkom je onnodige vragen.
 
-<img width="1465" alt="image" src="https://github.com/user-attachments/assets/184fc37d-1958-4a21-b48d-c7fc3a5864ee">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/184fc37d-1958-4a21-b48d-c7fc3a5864ee">
 
 ## Kenmerken
 ### Toegankelijkheid HTML

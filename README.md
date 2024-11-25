@@ -17,9 +17,9 @@ Linkje naar de ontwikkelde Geveltuin pagina: [www.ambersr.github.io/all-human-ac
 
 ## Beschrijving
 ### Het ontwerp
-Het ontwerp van de Geveltuinpagina is niet veranderd. Daarentegen is er een nieuwe ontwerp toegevoegd namelijk de contactpagina. Deze heeft netzoals de Geveltuinpagina overlappende elementen en bepaalde stylingen die aansluiten bij het ontwerp. Het ontwerp is voor meerdere schermbreedtes ontworpen. (Zie afbeelding)
+Het ontwerp van de Geveltuinpagina is niet veranderd. Daarentegen is er een nieuwe ontwerp toegevoegd namelijk de contactpagina. Deze heeft netzoals de Geveltuinpagina overlappende elementen en bepaalde stylingen die aansluiten bij het huidige ontwerp. Het ontwerp is voor meerdere schermbreedtes ontworpen. (Zie afbeelding)
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/bfbcbfbb-9ef8-4c1a-9928-0afdce55b134">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/bfbcbfbb-9ef8-4c1a-9928-0afdce55b134">
 
 ### Het ontwikkelde platform
 - Geveltuinpagina

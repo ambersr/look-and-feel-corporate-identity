@@ -1,6 +1,8 @@
 # Platform Bieb in Bloei sprint 2
 Tijdens sprint 3 heb ik me vooral gericht op de styling. Samen met het Bieb in Bloei-team hebben we een styleguide opgesteld waarin we de visuele stijl voor de Bieb in Bloei-website hebben bepaald en vastgelegd. De stylesheet die we hebben ontwikkeld, heb ik toegepast op de nieuw aangemaakte pagina's: Geveltuin en Contact. Daarnaast heb ik de feedback van de vorige sprint verwerkt. Ook is Harry op verschillende plekken terug te vinden op zowel de Geveltuin- als de Contactpagina.
 
+Linkje naar de pagina: https://ambersr.github.io/look-and-feel-corporate-identity/index.html
+
 #### Wie is Bieb in Bloei?
 Bieb in Bloei is onderdeel van Buurtcampus Oost. Dit is een sociale groene ontmoetingsplek waar plantenliefhebbers bij elkaar komen om actief deel te nemen aan vergroening van de omgeving van Amsterdam. Bieb in Bloei biedt verschillende diensten aan waaronder: Zaden- en stekjesbibliotheek, groene educatieve workshops over duurzaamheid, tuinieren en vergroening en geveltuin project waaarin je van alles leert over duurzaamheid, verzorging van stekjes en zaadjes.
 

@@ -854,6 +854,11 @@ form {
     padding: 0;
 }
 
+input:user-invalid {
+    border: 2px solid red !important;
+    background-color: #ffe6e6 !important;
+}
+
 /* Blok rechts */
 .aanmelden-rechts {
     background-color: var(--third-background-color);
@@ -1233,7 +1238,7 @@ form {
 }
 
 /* Afbeelding in blok rechts */
-img.info-img {
+.map iframe {
     width: 100%;
     height: 18em;
     border-radius: 15px;

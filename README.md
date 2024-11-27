@@ -1,5 +1,5 @@
-# Platform Bieb in Bloei sprint 2
-Tijdens sprint 3 heb ik me vooral gericht op de styling. Samen met het Bieb in Bloei-team hebben we een styleguide opgesteld waarin we de visuele stijl voor de Bieb in Bloei-website hebben bepaald en vastgelegd. De stylesheet die we hebben ontwikkeld, heb ik toegepast op de nieuw aangemaakte pagina's: Geveltuin en Contact. Daarnaast heb ik de feedback van de vorige sprint verwerkt. Ook is Harry op verschillende plekken terug te vinden op zowel de Geveltuin- als de Contactpagina.
+# Platform Bieb in Bloei sprint 4
+Tijdens sprint 4 heb ik me voornamelijk gericht op de styling. Samen met het Bieb in Bloei-team hebben we een styleguide opgesteld waarin we de visuele stijl voor de Bieb in Bloei website hebben bepaald en vastgelegd. De stylesheet die we hebben ontwikkeld, heb ik toegepast op de nieuw ontwikkelde pagina's: Geveltuin en Contact. Daarnaast heb ik de feedback van de vorige sprint verwerkt. Harry is op verschillende plekken terug te vinden op zowel de Geveltuin- als de Contactpagina.
 
 Linkje naar de pagina: https://ambersr.github.io/look-and-feel-corporate-identity/index.html
 
@@ -28,13 +28,13 @@ Linkje naar het ontwerp in Figma: https://www.figma.com/design/9o1mHaZT6NTU6dXo6
 ### Het ontwikkelde platform
 - Geveltuinpagina
 
-De Geveltuinpagina is opnieuwe ontwikkeld en heeft een aantal nieuwe ontwikkelingen waaronder: de verplichte velden in het formulier, verbeterde semantieke opbouw en responsive issues opgelost.
+De Geveltuinpagina is opnieuw ontwikkeld en heeft een aantal nieuwe ontwikkelingen waaronder: de verplichte velden in het formulier, verbeterde semantieke opbouw en responsive issues opgelost.
 
 Linkje naar de Geveltuinpagina: https://ambersr.github.io/look-and-feel-corporate-identity/
 
 - Contactpagina
 
-De contactpagina is volledig nieuw en is ontwikkeld op basis van schetsen en een high-fidelity ontwerp, met gebruik van HTML, CSS en JavaScript. De pagina is vormgegeven in dezelfde stijl als de Geveltuinpagina en bevat een contactformulier en een blok met contactgegevens van Bieb in Bloei. Onder het formulier is een FAQ-sectie toegevoegd met veelgestelde vragen, zodat gebruikers snel antwoorden kunnen vinden zonder onnodig contact op te hoeven nemen.
+De contactpagina is nieuw en is ontwikkeld op basis van schetsen en een high-fidelity ontwerp, met gebruik van HTML, CSS en JavaScript. De pagina is vormgegeven in dezelfde stijl als de Geveltuinpagina en bevat een contactformulier en een blok met contactgegevens van Bieb in Bloei. Onder het formulier is een FAQ-sectie toegevoegd met veelgestelde vragen, zodat gebruikers snel antwoorden kunnen vinden zonder onnodig contact op te hoeven nemen.
 
 Linkje naar de Contactpagina: https://ambersr.github.io/look-and-feel-corporate-identity/contact.html
 

@@ -179,12 +179,17 @@ body {
     }
 }
 
+nav {
+    display: flex;
+}
+
 /* Logo Bieb in Bloei*/
 .header-nav img {
     width: 4.5em;
     z-index: 35;
     display: block;
     position: relative;
+    align-self: center;
 
     @media screen and (min-width: 820px) {
         width: 5em;
@@ -195,10 +200,12 @@ body {
 .checkbtn {
     color: var(--text-off-white);
     cursor: pointer;
-    display: block; /* checkbtn vult volledige breedte  */
+    display: flex; /* checkbtn vult volledige breedte  */
+
     position: absolute;
     right: 15px;
     border: none;
+    align-self: center;
 
     @media screen and (min-width: 820px) {
         display: none;

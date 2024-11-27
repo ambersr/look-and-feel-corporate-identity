@@ -738,7 +738,7 @@ details>summary::-webkit-details-marker /* Zorgt ervoor dat de standaard marker 
     margin-bottom: -65px;
     margin-right: 0%;
     width: 120px;
-    animation: moveUpDown 12s ease-in-out infinite; /* animatie duurt 12s oneindig */
+    /* animation: moveUpDown 12s ease-in-out infinite;  */
     animation-delay: 3s;
     z-index: 10;
 
